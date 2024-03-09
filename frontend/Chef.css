@@ -1,0 +1,257 @@
+.pagetop{
+    height: 2000px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    
+}
+
+.leftl{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    position: relative;
+    top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+}
+
+.leftl h1{
+    margin-left: 3%;
+    color: blueviolet;
+}
+.leftl hr{
+    color:blueviolet ;
+    margin-left:2%;
+    width: 90%;
+    background-color: blueviolet;
+}
+
+.leftl table {
+    margin-left: 2%;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    background-color: rgb(148, 48, 241,0.8);
+    font-size: 20px;
+    
+}
+.left1 th{
+    padding: 10px;
+}
+.left1 tbody{
+    text-align: center;
+    padding: 30px;
+}
+.leftl th tr{
+    border-spacing: 5px;
+    margin: 10px;
+    width: 90;
+}
+.rightr{
+    background-color: rgb(148, 50, 239);
+    width: 50%;
+    position: relative;
+    top: 4%;
+}
+
+.insert{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: opacity 0.5s ease;  
+}
+
+.insert form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+
+.button-57 {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #18181a;
+  color: #18181a;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 18px 18px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fff;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+  position: relative;
+  transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 10;
+}
+
+.button-57 span:last-child {
+  color: white;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+  z-index: 100;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transform: translateY(225%) translateX(-50%);
+  height: 14px;
+  line-height: 13px;
+}
+
+.button-57:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background-color: rgb(207, 51, 255);
+  transform-origin: bottom center;
+  transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+  transform: skewY(9.3deg) scaleY(0);
+  z-index: 50;
+}
+
+.button-57:hover:after {
+  transform-origin: bottom center;
+  transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+  transform: translateX(-50%) translateY(-100%);
+  opacity: 1;
+  transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+.insert h1{
+    color: white;
+}
+
+.insert input{
+    background-color: white;
+    border: none;
+    opacity: 0.9;
+    width: 400px;
+    height: 40px;
+    border: 1px rgb(115, 50, 223) solid;
+    border-radius: 20%;
+    
+}
+
+::placeholder{
+    color:rgb(115, 0, 223);
+    opacity: 0.9;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+}
+
+.insert button{
+    width: 50%;
+    margin-left: 25%;
+}
+
+
+
+.delete h1{
+    color: white;
+}
+
+.delete input{
+    background-color: white;
+    border: none;
+    opacity: 0.9;
+    width: 400px;
+    height: 40px;
+    border: 1px rgb(115, 50, 223) solid;
+    border-radius: 20%;
+    
+}
+
+.delete{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: opacity 0.5s ease;
+}
+
+.delete form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.delete button{
+    width: 30%;
+    margin-left: 0%;
+}
+
+.butt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 50px;
+}
+
+.button-55 {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: rgb(148, 50, 239);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 30%;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.rightup{
+    color: white;
+    text-align: center;
+}
