@@ -37,5 +37,5 @@ Make sure you have the following installed:
 
 ## Authors
 
-- **Your Name** - *Initial work* - [CNavneeth](https://github.com/CNavneeth)
+- **Navneeth C** - [CNavneeth](https://github.com/CNavneeth)
 
