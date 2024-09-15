@@ -1,5 +1,7 @@
 # Restaurant Management System
 
+![Restaurant Management System Screenshot](./tripguide.png)
+
 ## Overview
 
 This project is a Restaurant Management System designed to streamline the operations of a restaurant. It allows for efficient handling of orders, menu management, table reservations, and customer feedback. The system is built using React for the frontend and Node.js for the backend, with a robust database setup to ensure data integrity and quick access.
